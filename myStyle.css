@@ -1,0 +1,79 @@
+/* myStyle.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: #DCE5F3;
+  padding: 20px 0;
+}
+
+h1 {
+  font-family: Vidaloka, serif;
+  color: #273E72;
+}
+
+h2 {
+  font-family: Vidaloka, serif;
+  padding: 10px 0;
+  color: #273E72;
+}
+
+p, figcaption, ul {
+  font-family: "Noto Sans", sans-serif;
+}
+
+li {
+  padding: 5px 0;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+.links {
+  color: #758ECD;
+}
+
+.links:hover {
+  color: #273E72;
+}
+
+#tribute-info {
+  width: 700px;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+@media (max-width: 800px) {
+  #tribute-info {
+    width: 500px;
+    margin: auto;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  #tribute-info {
+    width: 300px;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+}
+
+#more-info {
+  text-align: center;
+  margin: 0 5px;
+}
